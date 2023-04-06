@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #e4e9ed;
+}
+
+.menu{
+    max-width: 100%;
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo img{
+    width: 200px;
+    height: 205px;
+    display: flex;
+    margin-left: 60%;
+}
+hr{
+    color: rgb(89, 92, 92);
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+nav ul li {
+    display:inline-block
+}
+
+nav ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color:   #6f98c1;
+}
+
+/* -------------------------------- */
+
+.txt_entrada{
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.lado_esq h1{
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    margin-top: 5%;
+}
+
+.resto{
+    margin-inline: 10%;
+    display: flex;
+    align-items: center;
+}
+.lado_esq{
+    width: 50%;
+    align-items: left;
+    margin-bottom: 3%;
+    justify-content: block;
+}
+.lado_esq p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.lado_dir{
+    width: 50%;
+    align-items: right;
+}
+.lado_dir img{
+    width: 1080px;
+    height: 580px;
+}
+
+.resto2{
+    margin-inline: 10%;
+    display: block;
+    align-items: left;
+    margin-top: 3%;
+}
+.lado_esq2{
+    width: 100%;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    justify-content: block;
+}
+.lado_esq2 p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+
+.img1{
+    margin-top: 5%;
+    width: 30%;
+}
+.img1 img{
+    margin-left: 5%;
+    margin-right: 2%;
+    width: 220;
+    height: 80px;
+    border-radius: 15%;
+}
+.parag1{
+    width: 60%;
+}
+
+.centrao{
+    text-align: center;
+    margin-top: 10%;
+}
+.centrao img{
+    border-radius: 8%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.centrao p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.centrao2{
+    text-align: center;
+    margin-top: 10%;
+}
+.centrao2 img{
+    width: 800px;
+    height:600px;
+    border-radius: 8%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.centrao2 p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
